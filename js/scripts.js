@@ -7,7 +7,7 @@ var gameState = 'notStarted', // started, ended
     score: 0,
   };
 var finalScore = 10;
-//rps
+
 var newGameBtn = document.getElementById('js-newGameButton');
 newGameBtn.addEventListener('click', newGame);
 
