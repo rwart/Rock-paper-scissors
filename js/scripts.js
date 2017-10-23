@@ -101,7 +101,7 @@ function playerPick(playerPickArg) {
 
 function getComputerPick() {
   var possiblePicks = ['rock', 'paper', 'scissors'];
-  return possiblePicks[Math.floor(Math.random() * 2.999999)];
+  return possiblePicks[Math.floor(Math.random() * 3.0)];
 }
 
 function checkRoundWinner(playerPick, computerPick) {
