@@ -1,6 +1,8 @@
 (function () {
   'use strict';
 
+  console.log('DOM loaded - you can have fun');
+
   var gameState = 'notStarted', // started, ended
     player = {
       name: '',
